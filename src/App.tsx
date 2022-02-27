@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <Route exact path="/website/" component={Main} />
-      <Route exact path="/website/auth" component={Auth} />
+      <Route exact path="/website/auth?code=:code" component={Auth} />
       <Route path="/website/" component={NotFound} />
     </Router>
   );
