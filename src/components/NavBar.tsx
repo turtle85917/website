@@ -11,7 +11,7 @@ class NavBar extends Component {
                     <FontAwesomeIcon icon={faHouse} />
                     <a href="/website/">Home</a>
                 </li>
-                <li className="nav-item left">
+                <li className="nav-item-left">
                     <a>Test</a>
                 </li>
             </nav>
