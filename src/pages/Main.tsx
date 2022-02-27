@@ -21,9 +21,6 @@ const Main = () => {
                 <PC>
                     <div>
                         <NavBar />
-                        <h1 className="mainTilte-pc">
-                           
-                        </h1>
                     </div>
                 </PC>
             </div>
