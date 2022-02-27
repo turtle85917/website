@@ -4,7 +4,7 @@ import { Mobile, PC } from '../MediaQuery';
 const Main = () => {
     return (
         <>
-            <div id="body-wrapper">
+            <div>
                 <Mobile>
                     <div className='mobile_container'>
                         모바일!    
@@ -12,15 +12,15 @@ const Main = () => {
                 </Mobile>
             </div>
 
-            <div id="body-wrapper">
+            <div>
                 <PC>
-                    <div id="body-content">
+                    <div>
                         Test Message
                     </div>
                 </PC>
             </div>
 
-            <footer className="footerText">
+            <footer>
                 <p>Copyright © 2018 tcpschool.co.,Ltd. All rights reserved.</p>
             </footer>
         </>
