@@ -1,5 +1,6 @@
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
+import NavBar from '../components/NavBar';
 import { Mobile, PC } from '../MediaQuery';
 
 const Main = () => {
@@ -10,8 +11,8 @@ const Main = () => {
         <>
             <div>
                 <Mobile>
-                    <div className='mobile_container'>
-                        모바일!    
+                    <div>
+                        
                     </div>
                 </Mobile>
             </div>
@@ -19,7 +20,10 @@ const Main = () => {
             <div>
                 <PC>
                     <div>
-                        Test Message
+                        <NavBar />
+                        <h1 className="mainTilte-pc">
+                           
+                        </h1>
                     </div>
                 </PC>
             </div>
