@@ -11,6 +11,8 @@ class NavBar extends Component {
                     <FontAwesomeIcon icon={"house"} />
                     <a href="/website/">Home</a>
                 </li>
+
+                
             </nav>
         )
     }

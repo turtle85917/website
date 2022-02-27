@@ -35,3 +35,40 @@ footer {
 #mobileCopyright {
   font-size: 50%;
 }
+
+.nav-container {
+  float: left;
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(32,34,37);
+  list-style-type: none;
+}
+
+.nav-container li {
+  text-align: center;
+  text-decoration: none;
+  overflow: auto;
+  color: white;
+}
+
+.nav-image {
+  transition: border-radius .3s ease-in-out;
+  border-radius: 50%;
+}
+
+.nav-image:hover, .nav-image img:hover {
+  border-radius: 15% !important;
+}
+
+.nav-item {
+  padding: 15px;
+  cursor: pointer;
+}
+
+.nav-item a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
