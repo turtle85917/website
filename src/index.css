@@ -1,5 +1,8 @@
-body {
+html, body {
   margin: 0;
+  padding: 0;
+  height: 100%;
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -12,10 +15,15 @@ code {
     monospace;
 }
 
-.mobile_container {
-  background-color: brown;
+#body-wrapper {
+  min-height: 100%;
+  position: relative;
 }
 
-.pc_container {
-  background-color: aqua;
+footer {
+  width: 100%;
+  height: 99999px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
