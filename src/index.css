@@ -66,10 +66,14 @@ footer {
   padding: 15px;
   cursor: pointer;
   list-style:none;
+  background-color: #8a8c8f;
 }
 
 .nav-item a {
   text-align: center;
   text-decoration: none;
-  color: white;
+}
+
+.left {
+  float: right;
 }
