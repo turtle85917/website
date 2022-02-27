@@ -1,7 +1,11 @@
 import React from 'react';
+import { useMediaQuery } from 'react-responsive';
 import { Mobile, PC } from '../MediaQuery';
 
 const Main = () => {
+    const isPc = useMediaQuery({
+        query: "(min-width:1024px)"
+    });
     return (
         <>
             <div>
@@ -21,7 +25,7 @@ const Main = () => {
             </div>
 
             <footer>
-                <p id="copyright">Copyright © 2022 website,Ltd. All rights reserved.</p>
+                <p id={`${isPc?'pc':'mobile'}Copyright`}>Copyright © 2022 website,Ltd. All rights reserved.</p>
             </footer>
         </>
     )
