@@ -14,7 +14,9 @@ const Main = () => {
 
             <div id="body-wrapper">
                 <PC>
-                    
+                    <div id="body-content">
+                        Test Message
+                    </div>
                 </PC>
             </div>
 
