@@ -7,13 +7,15 @@ class NavBar extends Component {
     render() {
         return (
             <nav>
-                <li className="nav-item">
-                    <FontAwesomeIcon icon={faHouse} />
-                    <a href="/website/">Home</a>
-                </li>
-                <li className="nav-item-left">
-                    <a>Test</a>
-                </li>
+                <ul className="nav-container">
+                    <li className="nav-item">
+                        <FontAwesomeIcon icon={faHouse} />
+                        <a href="/website/">Home</a>
+                    </li>
+                    <li className="nav-item-right">
+                        <a>Test</a>
+                    </li>
+                </ul>
             </nav>
         )
     }
