@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Switch as Router } from 'react-router-dom';
 
 import { Main } from './pages';
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <Router>
         <Route exact path="/" component={Main} />
-      </div>
+      </Router>
     );
   }
 }
