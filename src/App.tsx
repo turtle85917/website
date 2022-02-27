@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Route exact path="/website/" component={Main} />
       <Route exact path="/website/auth" component={Auth} />
-      <Route component={NotFound} />
+      <Route path="/website/" component={NotFound} />
     </Router>
   );
 }
