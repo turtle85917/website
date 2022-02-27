@@ -21,7 +21,7 @@ const Main = () => {
             </div>
 
             <footer>
-                <p>Copyright © 2018 tcpschool.co.,Ltd. All rights reserved.</p>
+                <p id="copyright">Copyright © 2022 website,Ltd. All rights reserved.</p>
             </footer>
         </>
     )
