@@ -65,6 +65,7 @@ footer {
 .nav-item {
   padding: 15px;
   cursor: pointer;
+  list-style:none;
 }
 
 .nav-item a {
