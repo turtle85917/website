@@ -6,7 +6,7 @@ import { Main } from './pages';
 function App() {
   return (
     <Router>
-      <Route exact path="/" component={Main} />
+      <Route exact path="/website/" component={Main} />
     </Router>
   );
 }
