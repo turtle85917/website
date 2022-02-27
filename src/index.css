@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.mobile_container {
+  background-color: brown;
+}
+
+.pc_container {
+  background-color: aqua;
+}
